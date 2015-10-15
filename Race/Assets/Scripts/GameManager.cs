@@ -162,6 +162,7 @@ public class GameManager : MonoBehaviour {
                 lboard3.text = leaderboard[2].ToString();
                 lboard4.text = leaderboard[3].ToString();
                 lboard5.text = leaderboard[5].ToString();
+                title.SetActive(false);
             }
             else {
                 lboard1.text = "";
